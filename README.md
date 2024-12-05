@@ -25,6 +25,7 @@ Este é um projeto de página web para apresentar e destacar um produto. O desig
 - **HTML5**: Estruturação do conteúdo.
 - **CSS3**: Estilização da página (incluindo Flexbox e Media Queries para responsividade).
 
-
+---
+<a href="https://leandroazevedo-1.github.io/pagina-de-produto/" target="_blank">Clique aqui e veja o projeto</a>
 
 
