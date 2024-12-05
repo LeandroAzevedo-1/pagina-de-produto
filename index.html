@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Fone de Ouvido</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/resposive.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="./src/imags/logo.png" alt="TechStore Logo">
+                <h1>TechStore</h1>
+            </div>
+
+            <nav class="nav">
+                <a href="#">Computadores</a>
+                <a href="#">TVs</a>
+                <a href="#">Acessórios</a>
+                <a href="#">Promoções</a>
+            </nav>
+
+            <div class="user-options">
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    login / cadastro
+                </a>
+                <input type="text" placeholder="Buscar produto">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="product-details">
+            <div class="product-gallery">
+                <!-- IMAGENS -->
+                <img src="./src/imags/fone_destaque.png" alt="Fone de Ouvido Bluetooth">
+                <div class="galery-thumbails">
+                    <img src="./src/imags/fone1.png" alt="Fone de Ouvido - Detalhe 1">
+                    <img src="./src/imags/fone2.png" alt="Fone de Ouvido - Detalhe 2">
+                    <img src="./src/imags/fone3.png" alt="Fone de Ouvido - Detalhe 3">
+                </div>
+            </div>
+            <!-- INFORMAÇÕES -->
+            <div class="product-info">
+                <p class="product-path">
+                    <i class="fa-sharp fa-solid fa-chevron-right"></i> Tecnologia / Fones / Sem Fio
+                </p>
+                <h2 class="Product-title">Fone de Ouvido Bluetooth - Preto</h2>
+                <p class="product-code">Código do Produto: 987SDX125</p>
+                <p class="price">R$ 550,00</p>
+
+                <p class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    45 avaliações
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, quia modi obcaecati veritatis sit non numquam. Quae, possimus? Harum fugit voluptatibus eos pariatur eligendi reiciendis, saepe id necessitatibus nihil hic?.
+                </p>
+                <div class="product-options">
+                    <label for="color">Cor:</label>                    
+                    <select name="color" id="color">
+                        <option value="Preto">Preto</option>
+                        <option value="Branco">Branco</option>
+                        <option value="Cinza">Cinza</option>
+                    </select>
+
+                    <label for="quantity">Quantidade:</label>
+                    <input type="number" id="quantity" name="quantity" value="1">
+                </div>
+                
+                <div class="buttons">
+                    <button class="add-to-cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        Adicionar ao carrinho
+                    </button>
+                    <button class="add-to-wishlis">
+                        <i class="fa fa-heart"></i>
+                        Adicionar a lista de desejos
+                    </button>
+                </div>
+                <p class="delivre">
+                    <i class="fas fa-truck"></i>
+                    Estimativa de Entrega: Consulte nossos termos e condições. 
+                </p>
+            </div>
+        </div>
+        <!-- INFORMAÇÕES DO PRODUTO -->
+         <div class="product-specs">
+            <ul class="tabs">
+                <li><i class="fa fa-info-circle"></i>Detalhe</li>
+                <li><i class="fa fa-undo"></i>Devolução</li>
+                <li><i class="fa fa-shipping-fast"></i>entrega</li>
+            </ul>
+            <div class="specs-content">
+                <div>
+                    <p><strong>SKU:</strong> AC123455a</p>
+                    <p><strong>Material externo: </strong> Plático ABS</p>
+                    <p><strong>Tempo de Batéria: </strong>Até 20 horas</p>
+                    <p><strong>Conectividade: </strong>Bluetooth</p>
+                </div>
+            </div>
+         </div>
+    </main>
+</body>
+</html>
